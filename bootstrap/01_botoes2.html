@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container pt-4">
+    <!-- com bootstrap -->
+    <!-- 
+        01 - tipo primary com texto black
+        02 - tipo danger com do cor texte dark
+        03 - tipo wargin
+        04 - tipo info com cor do texto seconday e o backgraund do texto sucess
+
+        crie botoes usando  elementos da tag "a" e do tipo input"submit"
+        05 - tag "a": tipo primary 
+        06 - tag input "submit": tipo succes
+        
+        crie botoes do tipo outline 
+        07 - botao do tipo primary
+        08 - botao do tipo warnig
+
+        crie botoes ocupando uma linha inteira
+        09 - do tipo outline sucess, larger e margin top 3
+     -->
+
+    <button class="btn btn-primary text-black ">Texto 01</button>
+    <button class="btn btn-danger text-dark ">Texto 02</button>
+    <button class="btn btn-warning">Texto 03</button>
+    <button class="btn btn-info text-secondary text-bg-success">Texto 04</button>
+    <br><br><br>
+   
+    <a href="#" class="btn btn-primary ">Texto 05</a>
+    <input class="btn btn-success" type="submit" value="Texo 06">
+    
+    <br><br><br>
+    
+    <button class="btn btn-outline-primary ">Texto 07</button>
+    <button class="btn btn-outline-warning ">Texto 08</button>
+    
+    <br><br><br>
+
+    <div class="d-grid gap-2">
+        <button class="btn btn-outline-success btn-lg mt-3 w-75 " type="button">Texto 09</button>
+    </div>
+
+    <br><br><br>
+
+    <div class="d-grid gap-2 col-9 ">
+        <button class="btn btn-outline-warning" type="button">75%</button>
+    </div>
+    <br><br>
+
+    <div class="d-grid gap-2 col-6 ">
+        <button class="btn btn-outline-secondary" type="button">50%</button>
+    </div>
+    <br><br>
+    
+    <div class="d-grid gap-2 col-3 ">
+        <button class="btn btn-outline-info " type="button">25%</button>
+    </div>
+    <hr>
+    <!-- criando uma boxModel -->
+    <h1>boxModel</h1>
+
+    <div class="display-1 bg-warning border border-primary border-5 rounded-5 text-center ">
+        boxModel
+    </div>
+
+    <div class="dropdown">
+        <h1 class=" text-start  text-sm-center text-md-end text-lg-start  text-xl-center  text-xl-end ">
+            Texto
+        </h1>
+    </div>
+
+    
+</body>
+
+</html>

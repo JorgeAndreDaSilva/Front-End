@@ -1,0 +1,38 @@
+  
+
+@media (max-width: 576px){
+    .principal{
+     background-image: url(img/download.jpg);
+    }
+}
+
+@media (max-width: 750px){
+    .principal{
+     background-image: url(img/download.jpg);
+    }
+}
+
+
+@media (min-width: 768px){
+    .principal{
+        background-image: url(img/shopping.webp);
+    }
+}@media (min-width: 992px)
+{
+    .principal{
+    background-image: url(img/download\ \(1\).jpg);
+    }
+    
+}
+@media (min-width: 1200px){
+    .principal{
+    background-image: url(img/download\ \(2\).jpg);
+    }
+}
+@media (min-width: 1400px)
+{
+    .principal{
+     background-image: url(img/download\ \(3\).jpg);
+    }
+    
+}
